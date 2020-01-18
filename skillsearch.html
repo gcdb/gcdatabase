@@ -15,53 +15,52 @@
   <link href="css/custom.css" rel="stylesheet">
   <style type="text/css">
 
-  .chars2-wrap {
-    float: left;
-    width: 30%;
-    margin: 0 5% 0 0;
-    padding: 0;
-  }
+    .chars2-wrap {
+      float: left;
+      width: 30%;
+      margin: 0 5% 0 0;
+      padding: 0;
+    }
 
-  .chars-wrap {
-    float: left;
-    width: 30%;
-    margin: 0 5% 0 0;
-    padding: 0;
-    position: relative;
-  }
+    .chars-wrap {
+      float: left;
+      width: 30%;
+      margin: 0 5% 0 0;
+      padding: 0;
+      position: relative;
+    }
 
-  .chars-list {
-    float: left;
-    width: 15%;
-  }
+    .chars-list {
+      float: left;
+      width: 15%;
+    }
 
-  .chars-list-wrap {
-    float: left;
-    width: 15%;
-  }
+    .chars-list-wrap {
+      float: left;
+      width: 15%;
+    }
 
-  .chars-list div {
-    float: left;
-    width: 100%;
-    height: 68px;
-    line-height: 65px;
-    padding: 0 5%;
-    background: #343a40;
-    margin: 0 0 1px;
-    position: relative;
-  }
+    .chars-list div {
+      float: left;
+      width: 100%;
+      height: 68px;
+      line-height: 65px;
+      padding: 0 5%;
+      margin: 0 0 1px;
+      position: relative;
+    }
 
-  .chars-list-wrap div {
-    float: left;
-    width: 100%;
-    height: 68px;
-    line-height: 65px;
-    padding: 0 5%;
-    background: #343a40;
-    margin: 0 0 1px;
-    position: relative;
-  }
-</style>
+    .chars-list-wrap div {
+      float: left;
+      width: 100%;
+      height: 68px;
+      line-height: 65px;
+      padding: 0 5%;
+      margin: 0 0 1px;
+      position: relative;
+    }
+
+  </style>
 </head>
 <body class="darktheme">
   <!-- Navigation -->
@@ -103,145 +102,145 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-            <h3>Filter by Skill Types</h3>
+          <h3>Filter by Skill Effects</h3>
           <pre id=result> </pre>
 
           <div class="chars-wrap">
-            <h3 style="font-size:17px; font-weight:normal;"><b>・ Stats Increase</b></h3>
+            <h3 style="font-size:15px; font-weight:normal;"><b>Stats Increase</b></h3>
             <form>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="inc_atk" id="inc_atk" /> Increase ATK
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="inc_atk_rel" id="inc_atk_rel" /> Increase ATK-related stats
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="inc_def" id="inc_def" /> Increase DEF
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="inc_def_rel" id="inc_def_rel" /> Increase DEF-related stats
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="inc_hp_rel" id="inc_hp_rel" /> Increase HP stats
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="inc_base" id="inc_base" /> Increase base stats
               </label>
             </form>
             <br>
 
-            <h3 style="font-size:17px; font-weight:normal;"><b>・ Stats Decrease</b></h3>
+            <h3 style="font-size:15px; font-weight:normal;"><b>Stats Decrease</b></h3>
             <form>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="dec_atk" id="dec_atk" /> Decrease ATK
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="dec_atk_rel" id="dec_atk_rel" /> Decrease ATK-related stats
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="def_crit_def" id="def_crit_def" /> Decrease crit defense-related stats
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="dec_def" id="dec_def" /> Decrease DEF
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="dec_def_rel" id="dec_def_rel" /> Decrease DEF-related stats
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="dec_hp" id="dec_hp" /> Decrease HP
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="dec_hp_rel" id="dec_hp_rel" /> Decrease HP-related stats
               </label>
             </form>
             <br>
 
-            <h3 style="font-size:17px; font-weight:normal;"><b>・ Damage-Related</b></h3>
+            <h3 style="font-size:15px; font-weight:normal;"><b>Damage-Related</b></h3>
             <form>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="inc_dmg" id="inc_dmg" /> Increase damage
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="dec_dmg" id="dec_dmg" /> Decrease damage
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="dec_ult_dmg" id="dec_ult_dmg" /> Decrease ult damage
               </label>
             </form>
             <br>
 
-            <h3 style="font-size:17px; font-weight:normal;"><b>・ Skill Ranks</b></h3>
+            <h3 style="font-size:15px; font-weight:normal;"><b>Skill Ranks</b></h3>
             <form>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="rank_up" id="rank_up" /> Rank up
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="rank_down" id="rank_down" /> Rank down
               </label>
             </form>
             <br>
 
-            <h3 style="font-size:17px; font-weight:normal;"><b>・ Ult Gauge</b></h3>
+            <h3 style="font-size:15px; font-weight:normal;"><b>Ult Gauge</b></h3>
             <form>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="inc_ult_gauge" id="inc_skill_type" /> Increase ult gauge
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="red_ult_gauge" id="red_ult_gauge" /> Reduce ult gauge
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="seal_ult_gauge" id="seal_ult_gauge" /> Seal ult gauge
               </label>
             </form>
             <br>
 
-            <h3 style="font-size:17px; font-weight:normal;"><b>・ Recovery/Cleanse/Removal</b></h3>
+            <h3 style="font-size:15px; font-weight:normal;"><b>Heal/Removal</b></h3>
             <form>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="cleanse" id="cleanse" /> Cleanse
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="hp_rec" id="hp_rec" /> HP Recovery (heal)
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="buff_rem" id="buff_rem" /> Buff removal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="stance_rem" id="stance_rem" /> Stance removal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="seal_ult_gauge" id="seal_ult_gauge" /> Ult gauge seal
               </label>
             </form>
             <br>
 
-            <h3 style="font-size:17px; font-weight:normal;"><b>・ Immunity</b></h3>
+            <h3 style="font-size:15px; font-weight:normal;"><b>Immunity</b></h3>
             <form>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="debuff_imm" id="debuff_imm" /> Debuff immunity
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="ult_eff_imm" id="ult_eff_imm" /> Ult skill effect immunity
               </label>
             </form>
@@ -249,157 +248,157 @@
           </div>
 
           <div class="chars-wrap">
-            <h3 style="font-size:17px; font-weight:normal;"><b>・ Skill Sealing</b></h3>
+            <h3 style="font-size:15px; font-weight:normal;"><b>Skill Sealing</b></h3>
             <form>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="atk_seal" id="atk_seal" /> Attacking skill seal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="buff_seal" id="buff_seal" /> Buffing skill seal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="debuff_seal" id="debuff_seal" /> Debuffing skill seal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="stance_seal" id="stance_seal" /> Stance seal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="heal_seal" id="heal_seal" /> Healing skill seal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="ult_seal" id="ult_seal" /> Ult seal 
               </label>
             </form>
             <br>
 
-            <h3 style="font-size:17px; font-weight:normal;"><b>・ Special Effects</b></h3>
+            <h3 style="font-size:15px; font-weight:normal;"><b>Effects/Statuses</b></h3>
             <form>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="amplify" id="amplify" /> Amplify
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="bleed" id="bleed" /> Bleed
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="burst" id="burst" /> Burst
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="corrosion" id="corrosion" /> Corrosion
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="collapse" id="collapse" /> Collapse
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="counter" id="counter" /> Counter
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="crush" id="crush" /> Crush
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="cure" id="cure" /> Cure
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="cut" id="cut" /> Cut
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="detonate" id="detonate" /> Detonate
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="destroy" id="destroy" /> Destroy
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="dodge" id="dodge" /> Dodge
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="explosion" id="explosion" /> Explosion
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="fatal" id="fatal" /> Fatal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="freeze" id="freeze" /> Freeze
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="hardening" id="hardening" /> Hardening
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="ignite" id="ignite" /> Ignite
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="infect" id="infect" /> Infect
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="lifesteal" id="lifesteal" /> Lifesteal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="penetrate" id="penetrate" /> Penetrate
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="petrify" id="petrify" /> Petrify
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="poison" id="poison" /> Poison
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="reflect" id="reflect" /> Reflect
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="rush" id="rush" /> Rush
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="recovery" id="self_rec" /> Recovery
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="shield" id="shield" /> Shield
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="shock" id="shock" /> Shock
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="stun" id="stun" /> Stun
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="steal" id="steal" /> Steal
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="taunt" id="taunt" /> Taunt
               </label>
               <br>
-              <label style="font-size:16px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="weakness" id="weakness" /> Weakness
               </label>
               <br>
@@ -519,9 +518,6 @@
             <div class="char" style="text-align: center;" data-id="friesia_srb" data-category="poison inc_dmg corrosion"><a href="characters/friesia/1.html"><img src="images/characters/friesia/srb_portrait.png" style="width:50px; height:50px;"></a>
             </div>
 
-            <div class="char" style="text-align: center;" data-id="friesia_srb" data-category="poison inc_dmg corrosion"><a href="characters/galand/1.html"><img src="images/characters/galand/ssrb_portrait.png" style="width:50px; height:50px;"></a>
-            </div>
-
             <div class="char" style="text-align: center;" data-id="galand_ssrb" data-category="amplify bleed inc_base"><a href="characters/galand/1.html"><img src="images/characters/galand/ssrb_portrait.png" style="width:50px; height:50px;"></a>
             </div>
 
@@ -552,15 +548,17 @@
             <div class="char" style="text-align: center;" data-id="griamore_srr" data-category="shield dec_atk_rel"><a href="characters/griamore/1.html"><img src="images/characters/griamore/srr_portrait.png" style="width:50px; height:50px;"></a>
             </div>
 
-            <div class="char" style="text-align: center;" data-id="griamore_srb" data-category="crush taunt dec_dmg dec_atk_rel"><a href="characters/griamore/2.html"><img src="images/characters/griamore/srb_portrait.png" style="width:50px; height:50px;"></a>
+            <div class="char" style="text-align: center;" data-id="griamore_ssrg" data-category="stance_rem stance_seal inc_hp_rel inc_dmg inc_def_rel taunt"><a href="characters/griamore/2.html"><img src="images/characters/griamore/ssrg_portrait.png" style="width:50px; height:50px;"></a>
+            </div>
+
+            <div class="char" style="text-align: center;" data-id="griamore_srb" data-category="crush taunt dec_dmg dec_atk_rel"><a href="characters/griamore/3.html"><img src="images/characters/griamore/srb_portrait.png" style="width:50px; height:50px;"></a>
             </div>
 
             <div class="char" style="text-align: center;" data-id="guila_ssrr" data-category="buff_rem stance_rem ignite fatal"><a href="characters/guila/1.html"><img src="images/characters/guila/ssrr_portrait.png" style="width:50px; height:50px;"></a>
             </div>
-
           </div>
+          
           <div class="chars-list-wrap">
-
             <div class="char" style="text-align: center;" data-id="guila_srb" data-category="ignite cleanse heal stance_rem"><a href="characters/guila/2.html"><img src="images/characters/guila/srb_portrait.png" style="width:50px; height:50px;"></a>
             </div>
 
@@ -576,8 +574,7 @@
             <div class="char" style="text-align: center;" data-id="helbram_ssrr" data-category="red_ult_gauge petrify buff_rem stance_rem"><a href="characters/helbram/2.html"><img src="images/characters/helbram/ssrr_portrait.png" style="width:50px; height:50px;"></a>
             </div>
 
-            <div class="char" style="text-align: center;" data-id="helbram_ssrr" data-category="red_ult_gauge petrify buff_rem stance_rem"><a href="characters/helbram/2.html"><img src="images/characters/helbram/ssrr_portrait.png" style="width:50px; height:50px;"></a>
-            </div>
+
 
             <div class="char" style="text-align: center;" data-id="hendrickson_ssrb" data-category="lifesteal ignite"><a href="characters/hendrickson/1.html"><img src="images/characters/hendrickson/ssrb_portrait.png" style="width:50px; height:50px;"></a>
             </div>
@@ -621,7 +618,7 @@
             <div class="char" style="text-align: center;" data-id="king_ssrg" data-category="fatal destroy crush"><a href="characters/king/2.html"><img src="images/characters/king/ssrg_portrait.png" style="width:50px; height:50px;"></a>
             </div>
 
-            <div class="char" style="text-align: center;" data-id="king_ssrr" data-category="heal_seal explosion crush"><a href="characters/king/3.html"><img src="images/characters/king/ssrg_portrait.png" style="width:50px; height:50px;"></a>
+            <div class="char" style="text-align: center;" data-id="king_ssrr" data-category="heal_seal explosion crush"><a href="characters/king/3.html"><img src="images/characters/king/ssrr_portrait.png" style="width:50px; height:50px;"></a>
             </div>
 
             <div class="char" style="text-align: center;" data-id="fat_king_ssrg" data-category="rush poison dec_def_rel"><a href="characters/fat_king/1.html"><img src="images/characters/fat_king/ssrg_portrait.png" style="width:50px; height:50px;"></a>
