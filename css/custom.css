@@ -1,17 +1,17 @@
 .darktheme{
-background: #1a1b1f;
+  background: #1a1b1f;
 }
 
 .whitetext{
-color: white;
+  color: white;
 }
 
 th[colspan="3"] {
-    text-align: center;
+  text-align: center;
 }
 
 .greytheme{
-background-color: #28292b;
+  background-color: #28292b;
 }
 
 .titlebox{
@@ -34,6 +34,13 @@ footer{
   margin-top:auto; 
 }
 
+.divider{
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+
 .carousel-item {
   height: 50vh;
   min-height: 300px;
@@ -42,6 +49,10 @@ footer{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.nav-link {
+  display: block;
 }
 
 .links {
@@ -63,28 +74,28 @@ th, td, tr {
 }
 
 .skillresize{
-max-width:100%;
-max-height:100%;
+  max-width:100%;
+  max-height:100%;
 }
 
 a{
   color:inherit;
   text-decoration: none;
- }
+}
 
- a:hover{
+a:hover{
   color:grey;
   text-decoration: none;
- }
+}
 
- #chartable td{
+#chartable td{
   padding:0;
- }
+}
 
- #chartable th{
+#chartable th{
   padding:0.5rem;
- }
- 
+}
+
 .object-fit-cover {
   width: 100%;
   height: 100%;
@@ -97,8 +108,8 @@ a{
 }
 
 .d-flex {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*Filter table*/
