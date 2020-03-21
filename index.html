@@ -96,7 +96,7 @@
 						</li>
 					</ul>
 					<div class="tab-content">
-						<div class="tab-pane fade show active  greytheme" id="patchnotes">
+						<div class="tab-pane fade show active greytheme" id="patchnotes">
 							<div class="jumbotron darktheme" style="padding: 0">
 								<div class="img-responsive" style="justify-content: center;">
 									<a href="patchnotes.html"><img src="images/banners/19mar2020.png" style="max-width: 100%; max-height: 100%;"></img></a>
@@ -169,27 +169,28 @@
 					</div>
 				</div>
 				<!-- /.Link -->
-				<!-- /.row -->
-			</section>
+			</div>
 		</div>
-		<!-- /.Container -->
-		<!-- Footer -->
-		<footer class="py-1 bg-dark">
-			<p class="m-0 text-center text-white">GCDatabase is not affliated with or endorsed by Netmarble | <a href="https://www.paypal.me/gcdatabase" style="color: #ff5500" target="_blank">Donations</a> | <a href="https://gcdatabase.com/specialthanks.html" style="color: #fcba03" target="_blank">Special Thanks</a></p>
-		</footer>
-		<!-- Bootstrap core JavaScript -->
-		<script src="lib/jquery/jquery.min.js"></script>
-		<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script>
-			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-				anchor.addEventListener('click', function (e) {
-					e.preventDefault();
+		<!-- /.row -->
+	</section>
+	<!-- /.Container -->
+	<!-- Footer -->
+	<footer class="py-1 bg-dark">
+		<p class="m-0 text-center text-white">GCDatabase is not affliated with or endorsed by Netmarble | <a href="https://www.paypal.me/gcdatabase" style="color: #ff5500" target="_blank">Donations</a> | <a href="https://gcdatabase.com/specialthanks.html" style="color: #fcba03" target="_blank">Special Thanks</a></p>
+	</footer>
+	<!-- Bootstrap core JavaScript -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script>
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
 
-					document.querySelector(this.getAttribute('href')).scrollIntoView({
-						behavior: 'smooth'
-					});
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
 				});
 			});
-		</script>
-	</body>
-	</html>
+		});
+	</script>
+</body>
+</html>
