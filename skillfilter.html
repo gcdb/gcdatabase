@@ -264,6 +264,10 @@
               </label>
               <br>
               <label style="font-size:14px;">
+                <input type="checkbox" name="skill_type" value="despair" id="despair" /> Despair
+              </label>
+              <br>
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="detonate" id="detonate" /> Detonate
               </label>
               <br>
@@ -295,7 +299,7 @@
                 <input type="checkbox" name="skill_type" value="infect" id="infect" /> Infect
               </label>
               <br>
-               <label style="font-size:14px;">
+              <label style="font-size:14px;">
                 <input type="checkbox" name="skill_type" value="intake" id="intake" /> Intake
               </label>
               <br>
@@ -740,6 +744,12 @@
 
             <div class="char" style="text-align: center;" data-id="zaneri_ssrg" data-category="disable_ult_gauge cleanse hp_rec HP-related shield"><a href="characters/zaneri/1"><img src="images/characters/zaneri/ssrg_portrait.png" style="width:50px; height:50px;"></a>
             </div>
+
+            <div class="char" style="text-align: center;" data-id="zaratras_ssrg" data-category="shatter charge"><a href="characters/zaratras/1"><img src="images/characters/zaratras/ssrg_portrait.png" style="width:50px; height:50px;"></a>
+            </div>
+
+            <div class="char" style="text-align: center;" data-id="zeldris_ssrb" data-category="spike despair"><a href="characters/zeldris/1"><img src="images/characters/zeldris/ssrb_portrait.png" style="width:50px; height:50px;"></a>
+            </div>
           </div>
 
         </div>
@@ -751,33 +761,33 @@
   <!-- /.Container -->
   <!-- Footer -->
   <footer class="py-1 bg-dark">
-     <p class="m-0 text-center text-white">GCDatabase is not affliated with or endorsed by Netmarble | <a href="https://www.paypal.me/gcdatabase" style="color: #ff5500" target="_blank">Donations</a> | <a href="https://gcdatabase.com/specialthanks" style="color: #fcba03" target="_blank">Special Thanks</a></p>
-  </footer>
-  <!-- Bootstrap core JavaScript -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
+   <p class="m-0 text-center text-white">GCDatabase is not affliated with or endorsed by Netmarble | <a href="https://www.paypal.me/gcdatabase" style="color: #ff5500" target="_blank">Donations</a> | <a href="https://gcdatabase.com/specialthanks" style="color: #fcba03" target="_blank">Special Thanks</a></p>
+ </footer>
+ <!-- Bootstrap core JavaScript -->
+ <script src="lib/jquery/jquery.min.js"></script>
+ <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+  });
+</script>
+
+<script type="text/javascript">
+  var $filterCheckboxes = $('input[type="checkbox"]');
+
+  $filterCheckboxes.on('change', function() {
+
+    var selectedFilters = {};
+
+    $filterCheckboxes.filter(':checked').each(function() {
+
+      if (!selectedFilters.hasOwnProperty(this.name)) {
+        selectedFilters[this.name] = [];
+      }
+
+      selectedFilters[this.name].push(this.value);
+
     });
-  </script>
-
-  <script type="text/javascript">
-    var $filterCheckboxes = $('input[type="checkbox"]');
-
-    $filterCheckboxes.on('change', function() {
-
-      var selectedFilters = {};
-
-      $filterCheckboxes.filter(':checked').each(function() {
-
-        if (!selectedFilters.hasOwnProperty(this.name)) {
-          selectedFilters[this.name] = [];
-        }
-
-        selectedFilters[this.name].push(this.value);
-
-      });
 
   // create a collection containing all of the filterable elements
   var $filteredResults = $('.char');
