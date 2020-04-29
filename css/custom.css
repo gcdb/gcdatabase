@@ -112,6 +112,75 @@ a:hover{
   flex-wrap: wrap;
 }
 
+.gc-btn{
+  /* color:#DDD; */
+  border-radius: 0px;
+}
+.btn {
+  margin-bottom: 10px !important;
+}
+.gc-sm-btn{
+  padding: 2px 4px !important;
+  color: rgb(233, 233, 233);
+  background: rgb(55, 55, 55);
+  border-radius: 2px !important;
+}
+
+.gc-sm-btn:hover {
+  background: rgb(101, 45, 45);
+}
+
+.gc-sm-btn > .btn-secondary.dropdown-toggle {
+  background: chartreuse !important;
+}
+
+.gc-btn-non{
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+.gc-btn-bg{
+  background:#666
+}
+.gc-disable{
+  pointer-events: none;
+  cursor: not-allowed;
+  color: darkgrey;
+}
+
+.gc-disable2 {
+  cursor: not-allowed;
+}
+
+.gc-disable2 * {
+  pointer-events: none;
+  color: #414141!important;
+}
+.gc-btn-header{
+  font-size: 12px;
+  font-weight:700;
+  vertical-align: text-bottom;
+  padding:0px;
+  /* margin:auto; */
+  padding-top:5px;
+  padding-bottom:5px;
+  color:#FFFFFFff;
+  text-align: center;
+  background: #11111199;
+  border-radius: 0px;
+  text-shadow: 2px 2px 2px #00000022,0px 0px 5px #00000077;
+  /* box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.4); */
+}
+.skill-header{
+  color: #FFF;
+  margin-bottom: 50px;
+}
+
+.skill-row{
+  margin-bottom: 20px;
+}
 /*Filter table*/
 
 .chars2-wrap {
@@ -157,4 +226,23 @@ a:hover{
   padding: 0 5%;
   margin: 0 0 1px;
   position: relative;
+}
+
+p {
+  color: #fff;
+}
+
+.effect-col {
+  padding-right: 120px;
+}
+
+.char-row {
+  align-content: center;
+  margin:auto;
+  margin-bottom: 50px;
+}
+
+.char-portrait {
+  width:100px; 
+  height:100px;
 }
