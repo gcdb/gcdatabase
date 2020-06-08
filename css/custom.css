@@ -249,3 +249,23 @@ p {
   width:100px; 
   height:100px;
 }
+
+@media (max-width: 767px) {
+  .visible-sm {
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  .hidden-stats {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  } 
+}
+
