@@ -144,10 +144,10 @@
 				<div class="col-10 col-sm-10">
 					<div class="btn-group-toggle" data-toggle="buttons">
 						<label class="btn btn-sm btn-secondary gc-sm-btn">
-							<input type="checkbox" name="skill_type" value="inc_dmg" id="inc_dmg" /> Increases damage
+							<input type="checkbox" name="skill_type" value="inc_dmg" id="inc_dmg" /> Increases damage dealt
 						</label>
 						<label class="btn btn-sm btn-secondary gc-sm-btn">
-							<input type="checkbox" name="skill_type" value="dec_dmg" id="dec_dmg" /> Decreases damage
+							<input type="checkbox" name="skill_type" value="dec_dmg" id="dec_dmg" /> Decreases damage taken
 						</label>
 						<label class="btn btn-sm btn-secondary gc-sm-btn">
 							<input type="checkbox" name="skill_type" value="dec_ult_dmg" id="dec_ult_dmg" /> Decreases Ultimate Move damage
@@ -271,7 +271,7 @@
 							<input type="checkbox" name="skill_type" value="disable_skill_effect" id="disable_skill_effect" /> Disable Skill Effects
 						</label>
 						<label class="btn btn-sm btn-secondary gc-sm-btn">
-							<input type="checkbox" name="skill_type" value="ult_eff_imm" id="ult_eff_imm" /> Restrict Ultimate Move Effect
+							<input type="checkbox" name="skill_type" value="ult_eff_disable" id="ult_eff_disable" /> Restrict Ultimate Move Effect
 						</label>
 					</div>
 				</div>
@@ -537,7 +537,7 @@
 								<img src="images/characters/camila/ssrr_portrait.webp" class="char-portrait" loading="lazy">
 							</a>
 						</div>
-						<div class="char" style="text-align: center;" data-id="chandler_ssrb" data-category="disable_skill_effect ult_eff_imm taunt charge">
+						<div class="char" style="text-align: center;" data-id="chandler_ssrb" data-category="disable_skill_effect ult_eff_disable taunt charge">
 							<a href="characters/chandler/1">
 								<img src="images/characters/chandler/ssrb_portrait.png" class="char-portrait" loading="lazy">
 							</a>
@@ -837,7 +837,7 @@
 								<img src="images/characters/gowther/ssrb_portrait.webp" class="char-portrait" loading="lazy">
 							</a>
 						</div>
-						<div class="char" style="text-align: center;" data-id="gowther_srg" data-category="rank_down red_ult_gauge dec_ult_dmg ult_eff_imm">
+						<div class="char" style="text-align: center;" data-id="gowther_srg" data-category="rank_down red_ult_gauge dec_ult_dmg ult_eff_disable">
 							<a href="characters/gowther/3">
 								<img src="images/characters/gowther/srg_portrait.webp" class="char-portrait" loading="lazy">
 							</a>
@@ -1062,6 +1062,11 @@
 								<img src="images/characters/ludociel/ssrb_portrait.webp" class="char-portrait" loading="lazy">
 							</a>
 						</div>
+						<div class="char" style="text-align: center;" data-id="margaret_ludociel_ssrb" data-category="charge cleanse inc_dmg dec_dmg sever disable_skill_effect ult_eff_disable dec_ult_dmg">
+							<a href="characters/margaret_ludociel/1">
+								<img src="images/characters/margaret_ludociel/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
 						<div class="char" style="text-align: center;" data-id="mai_ssrb" data-category="red_ult_gauge amplify rank_up">
 							<a href="characters/mai/1">
 								<img src="images/characters/mai/ssrb_portrait.webp" class="char-portrait" loading="lazy">
@@ -1202,7 +1207,7 @@
 								<img src="images/characters/ram/ssrg_portrait.png" class="char-portrait" loading="lazy">
 							</a>
 						</div>
-						<div class="char" style="text-align: center;" data-id="rem_ssrr" data-category="amplify dec_ult_dmg ult_eff_imm shatter">
+						<div class="char" style="text-align: center;" data-id="rem_ssrr" data-category="amplify dec_ult_dmg ult_eff_disable shatter">
 							<a href="characters/rem/1">
 								<img src="images/characters/rem/ssrr_portrait.png" class="char-portrait" loading="lazy">
 							</a>
