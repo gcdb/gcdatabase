@@ -350,3 +350,16 @@ p {
 .burger-check {
   display: none;
 }
+
+.accordion-button {
+  background-color: #4c4c4d;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #4c4c4d;
+}
+
+.accordion-body {
+  background-color: #28292b;
+}
