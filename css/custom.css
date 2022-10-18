@@ -359,3 +359,26 @@ p {
 .accordion-body {
   background-color: #28292b;
 }
+
+    #nn_skinr,
+
+    #nn_skinl {
+
+    position: fixed;
+
+    top: 0px;
+
+    left: 50%;
+
+    margin-left: -900px;
+
+    z-index: 1000;
+
+    }
+
+
+    #nn_skinr {
+
+    margin-left: 600px;
+
+    }
