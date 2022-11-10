@@ -1,8 +1,8 @@
-.darktheme{
+.darktheme {
   background: #1a1b1f;
 }
 
-.whitetext{
+.whitetext {
   color: white;
 }
 
@@ -10,30 +10,31 @@ th[colspan="3"] {
   text-align: center;
 }
 
-.greytheme{
+.greytheme {
   background-color: #28292b;
 }
 
-html, body{
- height:100%;
-  margin:0;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
 body {
   padding-top: 56px;
-  display:flex; 
-  flex-direction:column; 
+  display: flex;
+  flex-direction: column;
 }
 
-.anchor{
-   padding-top:50px;
+.anchor {
+  padding-top: 50px;
 }
 
-footer{
-  margin-top:auto; 
+footer {
+  margin-top: auto;
 }
 
-.divider{
+.divider {
   display: block;
   width: 100%;
   height: 1px;
@@ -63,37 +64,39 @@ footer{
   padding-bottom: 3rem;
 }
 
-.dropdown:hover>.dropdown-menu {
-  margin-top:  0;
+.dropdown:hover > .dropdown-menu {
+  margin-top: 0;
   display: block;
 }
 
-th, td, tr {
+th,
+td,
+tr {
   text-align: center;
   vertical-align: middle;
 }
 
-.skillresize{
-  max-width:100%;
-  max-height:100%;
+.skillresize {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-a{
-  color:inherit;
+a {
+  color: inherit;
   text-decoration: none;
 }
 
-a:hover{
-  color:grey;
+a:hover {
+  color: grey;
   text-decoration: none;
 }
 
-#chartable td{
-  padding:0;
+#chartable td {
+  padding: 0;
 }
 
-#chartable th{
-  padding:0.5rem;
+#chartable th {
+  padding: 0.5rem;
 }
 
 .object-fit-cover {
@@ -103,8 +106,8 @@ a:hover{
 }
 
 .responsive {
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .d-flex {
@@ -112,14 +115,14 @@ a:hover{
   flex-wrap: wrap;
 }
 
-.gc-btn{
+.gc-btn {
   /* color:#DDD; */
   border-radius: 0px;
 }
 .btn {
   margin-bottom: 10px !important;
 }
-.gc-sm-btn{
+.gc-sm-btn {
   padding: 2px 4px !important;
   color: rgb(233, 233, 233);
   background: rgb(55, 55, 55);
@@ -134,17 +137,17 @@ a:hover{
   background: chartreuse !important;
 }
 
-.gc-btn-non{
+.gc-btn-non {
   display: inline-block;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   line-height: 1.5;
 }
-.gc-btn-bg{
-  background:#666
+.gc-btn-bg {
+  background: #666;
 }
-.gc-disable{
+.gc-disable {
   pointer-events: none;
   cursor: not-allowed;
   color: darkgrey;
@@ -156,29 +159,29 @@ a:hover{
 
 .gc-disable2 * {
   pointer-events: none;
-  color: #414141!important;
+  color: #414141 !important;
 }
-.gc-btn-header{
+.gc-btn-header {
   font-size: 12px;
-  font-weight:700;
+  font-weight: 700;
   vertical-align: text-bottom;
-  padding:0px;
+  padding: 0px;
   /* margin:auto; */
-  padding-top:5px;
-  padding-bottom:5px;
-  color:#FFFFFFff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffffffff;
   text-align: center;
   background: #11111199;
   border-radius: 0px;
-  text-shadow: 2px 2px 2px #00000022,0px 0px 5px #00000077;
+  text-shadow: 2px 2px 2px #00000022, 0px 0px 5px #00000077;
   /* box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.4); */
 }
-.skill-header{
-  color: #FFF;
+.skill-header {
+  color: #fff;
   margin-bottom: 50px;
 }
 
-.skill-row{
+.skill-row {
   margin-bottom: 20px;
 }
 /*Filter table*/
@@ -238,13 +241,13 @@ p {
 
 .char-row {
   align-content: center;
-  margin:auto;
+  margin: auto;
   margin-bottom: 50px;
 }
 
 .char-portrait {
-  width:100px; 
-  height:100px;
+  width: 100px;
+  height: 100px;
 }
 
 @media (max-width: 767px) {
@@ -263,10 +266,10 @@ p {
     display: block;
     height: auto !important;
     visibility: visible;
-  } 
+  }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .cooking-nav {
     display: grid;
   }
@@ -307,11 +310,11 @@ p {
     transition: transform 0.5s ease-in-out;
     -webkit-transition: -webkit-transform 0.5s ease-in-out;
   }
-  
+
   .burger-check {
     display: none;
   }
-  
+
   .burger-check:checked ~ .burger {
     border-bottom: 4px solid transparent;
     transition: border-bottom 0.8s ease-in-out;
@@ -329,13 +332,13 @@ p {
     transition: transform 0.5s ease-in-out;
     -webkit-transition: -webkit-transform 0.5s ease-in-out;
   }
-  
-  .cooking-nav-visibility{
+
+  .cooking-nav-visibility {
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s ease-in-out;
   }
-  
+
   .burger-check:checked ~ .cooking-nav-visibility {
     max-height: 500px;
     display: grid;
@@ -360,25 +363,19 @@ p {
   background-color: #28292b;
 }
 
-    #nn_skinr,
+#nn_skinr,
+#nn_skinl {
+  position: fixed;
 
-    #nn_skinl {
+  top: 0px;
 
-    position: fixed;
+  left: 50%;
 
-    top: 0px;
+  margin-left: -900px;
 
-    left: 50%;
+  z-index: 1000;
+}
 
-    margin-left: -900px;
-
-    z-index: 1000;
-
-    }
-
-
-    #nn_skinr {
-
-    margin-left: 600px;
-
-    }
+#nn_skinr {
+  margin-left: 600px;
+}
