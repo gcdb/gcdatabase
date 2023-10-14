@@ -126,7 +126,6 @@
 					</div>
 				</div>
 				<!-- /.Basic Info  Stats -->
-
 				<h2 class="whitetext">Stats</h2>
 				<div>
 					<div class="list-group mb-3">
@@ -198,10 +197,93 @@
 					<div id="nn_sky2" class="d-flex justify-content-center"></div>
 				</div>
 				<!-- /.End of Stats-->
+				<div id="nn_skinr"></div>
+				<h2 class="whitetext">Misc. Info</h2>
+				<div class="list-group mb-3">
+					<div class="list-group-item greytheme whitetext">
+						<div class="table-responsive">
+							<!-- Misc. Info -->
+							<table class="table table-dark table-striped table-bordered" style="margin-bottom: 2">
+								<tr>
+									<th>Title & Name (JP)</th>
+								</tr>
+								<tbody>
+									<tr>
+										<td>【不屈の意志】<br>戦神 テュール</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="table table-dark table-striped table-bordered" style="margin-bottom: 2">
+								<tbody>
+									<tr>
+										<td>Gender</td>
+										<td>Male</td>
+									</tr>
+									<tr>
+										<td>Blood Type</td>
+										<td>Unknown</td>
+									</tr>
+									<tr>
+										<td>Age</td>
+										<td>Unknown</td>
+									</tr>
+									<tr>
+										<td>Birthday</td>
+										<td>8 Jul</td>
+									</tr>
+									<tr>
+										<td>Height</td>
+										<td>175cm</td>
+									</tr>
+									<tr>
+										<td>Weight</td>
+										<td>63kg</td>
+									</tr>
+									<tr>
+										<td>Location</td>
+										<td>-</td>
+									</tr>
+								</tbody>
+							</table>
+							<!-- Misc. Info-->
+							<!-- Cooking -->
+							<table class="table table-dark table-striped table-bordered" style="margin-bottom: 0">
+								<tr>
+									<th>Food</th>
+								</tr>
+								<tbody>
+									<tr>
+										<td><a href="../../cooking"><img src="../../images/food/seafood_pot.webp"
+													style="width: 50px" loading="lazy"><br>Seafood Pot</a></td>
+									</tr>
+									<tr>
+
+									</tr>
+								</tbody>
+							</table>
+							<!-- /.Cooking -->
+							<table class="table table-dark table-striped table-bordered" style="margin-bottom: 0">
+								<tr>
+									<th>Food</th>
+								</tr>
+								<tbody>
+									<tr>
+										<td><a href="../../cooking"><img src="../../images/food/seafood_pot.webp"
+													style="width: 50px" loading="lazy"><br>Seafood Pot</a></td>
+									</tr>
+									<tr>
+
+									</tr>
+								</tbody>
+							</table>
+							<!-- /.Cooking -->
+						</div>
+					</div>
+				</div>
+			</div>
 				<div id="nn_mobile_lb1"></div>
 				<div id="nn_mobile_mpu5"></div>
 				<div id="nn_skinl"></div>
-			</div>
 			<!-- /.Basic Info  /.End of Left Sidebar -->
 			<!-- Skills -->
 			<div class="col-lg-6 mb-4">
@@ -342,7 +424,24 @@
 								</tr>
 								<tbody>
 									<tr>
-										<td>At the start of the battle, aplies <a data-toggle="tooltip" data-placement="top" title="Berserk: When using skills, for every 1% diminished HP, increases Attack by 1.5% up to a max of 50%, increases damage dealt with Single-target skills by 15%."><b style="color:#00d4fe">Berserk</b></a> to applicable allies and for 1 turn, taunts all enemies. For every applicable ally in battle, increases that ally's damage by 5% and increases the hero's Crit Damage by 45%. Additionally, at the start of ally's turn, applies 40% Crit Reduction for 1 turn on all enemies. ※ Applicable ally: Ragnarok, Unknown ally</td>
+										<td>At the start of the battle, applies <a 
+											data-toggle="tooltip" data-placement="top" title="Berserk: Increases Attack by 1.5%, up to 50%, for every 1% of diminished HP when using a skill and damage dealt with single-target attacks by 15%."><b
+											style="color:#00d4fe">Berserk</b> on <a 
+											data-toggle="tooltip" data-placement="top" title="Applicable Allies: [Ragnarok], Unknown Race"><b
+											style="color:#00d4fe">applicable allies</b> and <a 
+											data-toggle="tooltip" data-placement="top" title="Taunts: Directs all attacks to self."><b
+											style="color:#00d4fe">Taunts</b> enemies for <b
+											style="color:#faab02">1 turn.</b> For <b
+											style="color:#faab02">each</b> <a 
+											data-toggle="tooltip" data-placement="top" title="Applicable Allies: [Ragnarok], Unknown Race"><b
+											style="color:#00d4fe">applicable ally</b> participating in battle, increases their damage dealt by <b
+											style="color:#faab02">5%</b> and increases the hero's Crit Damage by <b
+											style="color:#faab02">45%.</b> In addition, at the start of the allies' turn, decreases all enemies' Crit Resistance by <b
+											style="color:#faab02">40%</b> for <b
+											style="color:#faab02">1 turn.</b>When the hero uses a skill, increases Crit Chance by <b
+											style="color:#faab02">1%</b> for <b
+											style="color:#faab02">every 1%</b> of <b
+											style="color:#00d4fe">diminished HP</b>.</td>
 									</tr>
 								</tbody>
 							</table>
@@ -360,11 +459,15 @@
 						<div class="table-responsive mt-3">
 							<table class="table table-dark table-striped table-bordered" style="margin-bottom: 0">
 								<tr>
-									<th colspan="3">Bind of God of War | 闘神の結束</th>
+									<th colspan="3">Unity of the Battle God | 闘神の結束</th>
 								</tr>
 								<tbody>
 									<tr>
-										<td>Increases the Crit Defense of applicable allies with this bind effect by 20/25/30/40/50/60%. (Multipler based on Ultimate level)</td>
+										<td>Increases Crit Defense of <a 
+											data-toggle="tooltip" data-placement="top" title="Applicable Allies: [Ragnarok], Unknown Race"><b
+											style="color:#00d4fe">applicable allies</b> with a Unity effect by <b
+											style="color:#faab02">20%</b>. <b
+											style="color:#00d4fe"></td>
 									</tr>
 								</tbody>
 							</table>
@@ -436,75 +539,6 @@
 					</div>
 				</div>
 				<!-- /.Association-->
-				<div id="nn_skinr"></div>
-				<h2 class="whitetext">Misc. Info</h2>
-				<div class="list-group mb-3">
-					<div class="list-group-item greytheme whitetext">
-						<div class="table-responsive">
-							<!-- Misc. Info -->
-							<table class="table table-dark table-striped table-bordered" style="margin-bottom: 2">
-								<tr>
-									<th>Title & Name (JP)</th>
-								</tr>
-								<tbody>
-									<tr>
-										<td>【不屈の意志】<br>戦神 テュール</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="table table-dark table-striped table-bordered" style="margin-bottom: 2">
-								<tbody>
-									<tr>
-										<td>Gender</td>
-										<td>Male</td>
-									</tr>
-									<tr>
-										<td>Blood Type</td>
-										<td>Unknown</td>
-									</tr>
-									<tr>
-										<td>Age</td>
-										<td>Unknown</td>
-									</tr>
-									<tr>
-										<td>Birthday</td>
-										<td>8 Jul</td>
-									</tr>
-									<tr>
-										<td>Height</td>
-										<td>175cm</td>
-									</tr>
-									<tr>
-										<td>Weight</td>
-										<td>63kg</td>
-									</tr>
-									<tr>
-										<td>Location</td>
-										<td>-</td>
-									</tr>
-								</tbody>
-							</table>
-							<!-- Misc. Info-->
-							<!-- Cooking -->
-							<table class="table table-dark table-striped table-bordered" style="margin-bottom: 0">
-								<tr>
-									<th>Food</th>
-								</tr>
-								<tbody>
-									<tr>
-										<td><a href="../../cooking"><img src="../../images/food/seafood_pot.webp"
-													style="width: 50px" loading="lazy"><br>Seafood Pot</a></td>
-									</tr>
-									<tr>
-
-									</tr>
-								</tbody>
-							</table>
-							<!-- /.Cooking -->
-						</div>
-					</div>
-				</div>
-			</div>
 			<!-- /.Right Sidebar -->
 		</div>
 		<!-- /.Row -->
