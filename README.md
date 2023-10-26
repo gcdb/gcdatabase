@@ -1,1 +1,2 @@
 # gcdatabase
+https://gcdatabase.com
