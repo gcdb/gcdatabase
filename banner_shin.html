@@ -101,9 +101,23 @@
                         (GLB) 01/29/2024 ～ 02/12/2024</h5>
                 </div>
             </div>
+
             <div class="container">
                 <div class="jumbotron greytheme whitetext" style="padding: 1rem 1rem">
-                    <h2 style="text-align: center;">Featured</h2>
+                    <h2 style="text-align: center;">Mileage</h2>
+                    <div class="d-flex justify-content-center">
+                        <img src="images/banners/mileage_shin.png" class="m-3" loading="lazy">
+                    </div>
+                    <h2 style="text-align: center;">Rewards</h2>
+                    <div class="d-flex justify-content-center">
+                        <img src="images/banners/shinrewards.png" class="m-3" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="jumbotron greytheme whitetext" style="padding: 1rem 1rem">
+                    <h2 style="text-align: center;">Featured - 0.5000% ↑</h2>
                     <div class="d-flex justify-content-center">
                         <a class="character-list-item" href="characters/shin/3">
                             <img src="images/characters/shin/ssrb_portrait.png" class="m-3" loading="lazy">
@@ -114,7 +128,7 @@
         
         <div class="container">
             <div class="jumbotron greytheme whitetext" style="padding: 1rem 1rem">
-                <h2 style="text-align: center;">Unfeatured</h2>
+                <h2 style="text-align: center;">Unfeatured - 0.2500%</h2>
                 <div class="row justify-content-center">
                     <div class="col-sm-2">
                         <a class="character-list-item" href="characters/hawkslo/3">
@@ -172,3 +186,44 @@
             </div>
         </div>
         
+        <!-- Mobile Tags -->
+					<div id="nn_mobile_mpu2"></div>
+					<div id="nn_mobile_mpu1"></div>
+					<div id="nn_mobile_mpu3"></div>
+					<div id="nn_mobile_mpu4"></div>
+					<div id="nn_mobile_mpu5"></div>
+					<div id="nn_mobile_lb1"></div>
+					<!-- /.Link -->
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		</div>
+	</section>
+	<!-- /.container -->
+	<div id="nn_player" class="d-flex justify-content-center"></div>
+	<div id="nn_lb3" class="d-flex justify-content-center"></div>
+	<div id="nn_lb4" class="d-flex justify-content-center"></div>
+	<!-- Footer -->
+	<footer class="py-1 bg-dark">
+		<p class="m-0 text-center text-white">GCDatabase is not affliated with or endorsed by Netmarble | Ran and Operated by Aoki and Toric | <a
+				href="https://www.paypal.me/gcdatabase" style="color: #ff5500" target="_blank">Donations</a> | <a
+				href="https://gcdatabase.com/specialthanks" style="color: #fcba03" target="_blank">Special Thanks</a> |
+			<a href="https://gcdatabase.com/privacypolicy" style="color: #fcba03" target="_blank">Privacy Policy</a></p>
+	</footer>
+	<!-- Bootstrap core JavaScript -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
+		});
+	</script>
+</body>
+
+</html>
