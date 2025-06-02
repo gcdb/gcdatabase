@@ -16,7 +16,7 @@ th[colspan="3"] {
 
 html,
 body {
-  height: 0%;
+  height: 100%;
   margin: 0;
 }
 
@@ -379,3 +379,17 @@ p {
 #nn_skinr {
   margin-left: 600px;
 }
+
+<style>
+.zoom-hover-container {
+  overflow: hidden;
+}
+
+.zoom-hover-container img {
+  transition: transform 0.3s ease;
+}
+
+.zoom-hover-container img:hover {
+  transform: scale(1.1);
+}
+</style>
